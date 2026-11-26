@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="E.A.D.A decision history"
+    >
+
+    <title>E.A.D.A | Decision History</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='css/style.css') }}"
+    >
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- =====================================================
+         Header
+         ===================================================== -->
+
+    <header class="dashboard-header">
+
+        <div class="brand-section">
+
+            <h1 class="title">E.A.D.A</h1>
+
+            <p class="subtitle">
+                Explainable Adaptive Decision Agent
+            </p>
+
+        </div>
+
+
+        <nav class="navigation">
+
+            <a
+                href="/"
+                class="nav-link"
+            >
+                Dashboard
+            </a>
+
+            <a
+                href="/history"
+                class="nav-link active"
+            >
+                Decision History
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- =====================================================
+         Page Heading
+         ===================================================== -->
+
+    <section class="history-page-header">
+
+        <div>
+
+            <h2>Decision History</h2>
+
+            <p>
+                Review previous task recommendations, confidence,
+                risks and rewards.
+            </p>
+
+        </div>
+
+
+        <div class="history-actions">
+
+            <button
+                type="button"
+                id="refreshHistoryBtn"
+                class="small-button"
+            >
+                Refresh
+            </button>
+
+            <button
+                type="button"
+                id="exportHistoryBtn"
+                class="outline-button small-button"
+            >
+                Export CSV
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         History Summary
+         ===================================================== -->
+
+    <section class="stats history-stats">
+
+        <div class="card">
+
+            <h4>Total Decisions</h4>
+
+            <h2 id="totalDecisions">
+                0
+            </h2>
+
+        </div>
+
+
+        <div class="card">
+
+            <h4>Average Reward</h4>
+
+            <h2 id="historyAverageReward">
+                0.00
+            </h2>
+
+        </div>
+
+
+        <div class="card">
+
+            <h4>Average Confidence</h4>
+
+            <h2 id="historyAverageConfidence">
+                0%
+            </h2>
+
+        </div>
+
+
+        <div class="card">
+
+            <h4>High-Risk Decisions</h4>
+
+            <h2 id="highRiskDecisions">
+                0
+            </h2>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         Search and Filters
+         ===================================================== -->
+
+    <section class="history-toolbar">
+
+        <div class="history-search">
+
+            <label
+                for="historySearch"
+                class="visually-hidden"
+            >
+                Search history
+            </label>
+
+            <input
+                type="search"
+                id="historySearch"
+                placeholder="Search by task or decision..."
+            >
+
+        </div>
+
+
+        <div class="history-filter">
+
+            <label
+                for="riskFilter"
+                class="visually-hidden"
+            >
+                Filter by risk
+            </label>
+
+            <select id="riskFilter">
+
+                <option value="All">
+                    All Risk Levels
+                </option>
+
+                <option value="Low">
+                    Low Risk
+                </option>
+
+                <option value="Medium">
+                    Medium Risk
+                </option>
+
+                <option value="High">
+                    High Risk
+                </option>
+
+            </select>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         Status Message
+         ===================================================== -->
+
+    <div
+        id="historyMessage"
+        class="system-message hidden"
+        role="alert"
+    ></div>
+
+
+    <!-- =====================================================
+         History Table
+         ===================================================== -->
+
+    <section class="history-container">
+
+        <div class="table-wrapper">
+
+            <table id="historyTable">
+
+                <thead>
+
+                <tr>
+
+                    <th>Task</th>
+
+                    <th>Decision</th>
+
+                    <th>Reward</th>
+
+                    <th>Confidence</th>
+
+                    <th>Risk</th>
+
+                    <th>Date</th>
+
+                </tr>
+
+                </thead>
+
+
+                <tbody id="historyBody">
+
+                <tr id="emptyHistory">
+
+                    <td
+                        colspan="6"
+                        class="empty-state"
+                    >
+                        No decision history is available.
+                    </td>
+
+                </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         Footer
+         ===================================================== -->
+
+    <footer class="footer">
+
+        <p>
+            E.A.D.A — Explainable Reinforcement Learning for
+            Intelligent Task Prioritization
+        </p>
+
+    </footer>
+
+</div>
+
+
+<script
+    src="{{ url_for('static', filename='js/main.js') }}"
+    defer
+></script>
+
+</body>
+
+</html>

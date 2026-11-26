@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="E.A.D.A - Explainable Adaptive Decision Agent dashboard"
+    >
+
+    <title>E.A.D.A | Decision Dashboard</title>
+
+    <link
+        rel="icon"
+        
+        href="{{ url_for('static', filename='images/favicon.ico') }}"
+    >
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='css/style.css') }}"
+    >
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- =====================================================
+         Header
+         ===================================================== -->
+
+    <header class="dashboard-header">
+
+        <div class="brand-section">
+
+            <img
+                src="{{ url_for('static', filename='images/logo.png') }}"
+                alt="E.A.D.A Logo"
+                class="brand-logo"
+            >
+
+            <div>
+
+                <h1 class="title">E.A.D.A</h1>
+
+                <p class="subtitle">
+                    Explainable Adaptive Decision Agent
+                </p>
+
+            </div>
+
+        </div>
+
+        <nav class="navigation">
+
+            <a
+                href="/dashboard"
+                class="nav-link active"
+            >
+                Dashboard
+            </a>
+
+            <a
+                href="/history"
+                class="nav-link"
+            >
+                Decision History
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- =====================================================
+         System Message
+         ===================================================== -->
+
+    <div
+        id="systemMessage"
+        class="system-message hidden"
+        role="alert"
+    ></div>
+
+
+    <!-- =====================================================
+         Top Statistics
+         ===================================================== -->
+
+    <section class="stats">
+
+        <div class="card">
+
+            <h4>Training Episodes</h4>
+
+            <h2 id="iterations">
+                0
+            </h2>
+
+        </div>
+
+        <div class="card">
+
+            <h4>Average Reward</h4>
+
+            <h2 id="reward">
+                0.00
+            </h2>
+
+        </div>
+
+        <div class="card">
+
+            <h4>Confidence</h4>
+
+            <h2 id="confidence">
+                0%
+            </h2>
+
+        </div>
+
+        <div class="card">
+
+            <h4>Risk Level</h4>
+
+            <h2 id="risk">
+                -
+            </h2>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         Training Section
+         ===================================================== -->
+
+    <section class="training-section">
+
+        <div class="training-content">
+
+            <div>
+
+                <h2>Reinforcement Learning Agent</h2>
+
+                <p>
+                    Train the Q-Learning agent using the available
+                    task dataset before generating recommendations.
+                </p>
+
+            </div>
+
+            <button
+                type="button"
+                id="trainBtn"
+                class="secondary-button"
+            >
+                Train Agent
+            </button>
+
+        </div>
+
+        <div
+            id="trainingResult"
+            class="training-result hidden"
+        >
+
+            <div class="training-metric">
+
+                <span>Dataset Size</span>
+
+                <strong id="datasetSize">
+                    0
+                </strong>
+
+            </div>
+
+            <div class="training-metric">
+
+                <span>Q-Table States</span>
+
+                <strong id="qStates">
+                    0
+                </strong>
+
+            </div>
+
+            <div class="training-metric">
+
+                <span>Success Rate</span>
+
+                <strong id="trainingSuccessRate">
+                    0%
+                </strong>
+
+            </div>
+
+            <div class="training-metric">
+
+                <span>Learning Progress</span>
+
+                <strong id="learningProgress">
+                    -
+                </strong>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         Main Decision Section
+         ===================================================== -->
+
+    <main class="main">
+
+        <!-- Input Panel -->
+
+        <section class="panel">
+
+            <h2>Task Parameters</h2>
+
+            <form id="taskForm">
+
+                <div class="input-group">
+
+                    <label for="task">
+                        Task Description
+                    </label>
+
+                    <textarea
+                        id="task"
+                        name="task"
+                        rows="4"
+                        maxlength="500"
+                        placeholder="Example: Investigate a critical network security incident"
+                        required
+                    ></textarea>
+
+                    <small class="input-help">
+                        Briefly describe the task that requires a decision.
+                    </small>
+
+                </div>
+
+
+                <div class="input-group">
+
+                    <div class="label-row">
+
+                        <label for="priority">
+                            Priority
+                        </label>
+
+                        <span id="priorityValue">
+                            5
+                        </span>
+
+                    </div>
+
+                    <input
+                        type="range"
+                        id="priority"
+                        name="priority"
+                        min="1"
+                        max="10"
+                        value="5"
+                    >
+
+                    <div class="range-labels">
+
+                        <span>Low</span>
+
+                        <span>High</span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="input-group">
+
+                    <label for="deadline">
+                        Deadline in Hours
+                    </label>
+
+                    <input
+                        type="number"
+                        id="deadline"
+                        name="deadline"
+                        min="1"
+                        max="8760"
+                        value="24"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="input-group">
+
+                    <label for="complexity">
+                        Complexity
+                    </label>
+
+                    <select
+                        id="complexity"
+                        name="complexity"
+                        required
+                    >
+
+                        <option value="Low">
+                            Low
+                        </option>
+
+                        <option
+                            value="Medium"
+                            selected
+                        >
+                            Medium
+                        </option>
+
+                        <option value="High">
+                            High
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="input-group">
+
+                    <label for="resource">
+                        Resource Availability
+                    </label>
+
+                    <select
+                        id="resource"
+                        name="resource"
+                        required
+                    >
+
+                        <option value="Low">
+                            Low
+                        </option>
+
+                        <option
+                            value="Medium"
+                            selected
+                        >
+                            Medium
+                        </option>
+
+                        <option value="High">
+                            High
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="input-grid">
+
+                    <div class="input-group">
+
+                        <label for="success">
+                            Historical Success (%)
+                        </label>
+
+                        <input
+                            type="number"
+                            id="success"
+                            name="success"
+                            min="0"
+                            max="100"
+                            value="70"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="input-group">
+
+                        <label for="failure">
+                            Failure Rate (%)
+                        </label>
+
+                        <input
+                            type="number"
+                            id="failure"
+                            name="failure"
+                            min="0"
+                            max="100"
+                            value="20"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <div class="button-group">
+
+                    <button
+                        type="submit"
+                        id="analyzeBtn"
+                    >
+                        Analyze Task
+                    </button>
+
+                    <button
+                        type="reset"
+                        id="resetBtn"
+                        class="outline-button"
+                    >
+                        Reset
+                    </button>
+
+                </div>
+
+            </form>
+
+        </section>
+
+
+        <!-- Result Panel -->
+
+        <section class="panel decision-panel">
+
+            <h2>Decision & Explanation</h2>
+
+            <div class="output-box">
+
+                <span class="output-label">
+                    Recommended Action
+                </span>
+
+                <h1 id="action">
+                    Waiting for analysis...
+                </h1>
+
+                <p id="confidenceText">
+                    Confidence: 0%
+                </p>
+
+            </div>
+
+
+            <div class="decision-details">
+
+                <div class="detail-card">
+
+                    <span>Risk</span>
+
+                    <strong id="decisionRisk">
+                        -
+                    </strong>
+
+                </div>
+
+
+                <div class="detail-card">
+
+                    <span>Expected Reward</span>
+
+                    <strong id="decisionReward">
+                        0.00
+                    </strong>
+
+                </div>
+
+
+                <div class="detail-card">
+
+                    <span>Confidence</span>
+
+                    <strong id="decisionConfidence">
+                        0%
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <div class="explanation">
+
+                <h3>Human-Readable Explanation</h3>
+
+                <p id="explanation">
+                    The AI explanation will appear here after the
+                    task is analyzed.
+                </p>
+
+            </div>
+
+
+            <div
+                id="qValuesSection"
+                class="q-values-section hidden"
+            >
+
+                <h3>Action Scores</h3>
+
+                <div
+                    id="qValues"
+                    class="q-values"
+                ></div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================================
+         Analytics Section
+         ===================================================== -->
+
+    <section
+        id="analyticsSection"
+        class="analytics-section"
+    >
+
+        <div class="section-heading">
+
+            <div>
+
+                <h2>Training Analytics</h2>
+
+                <p>
+                    Performance information generated from the
+                    reinforcement learning process.
+                </p>
+
+            </div>
+
+            <button
+                type="button"
+                id="refreshAnalyticsBtn"
+                class="small-button"
+            >
+                Refresh Analytics
+            </button>
+
+        </div>
+
+
+        <div class="graphs">
+
+            <div class="chart-card">
+
+                <h3>Reward History</h3>
+
+                <div class="chart-wrapper">
+
+                    <canvas id="rewardChart"></canvas>
+
+                </div>
+
+            </div>
+
+
+            <div class="chart-card">
+
+                <h3>Training Success</h3>
+
+                <div class="chart-wrapper">
+
+                    <canvas id="successChart"></canvas>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         Recent Decision History
+         ===================================================== -->
+
+    <section class="recent-history-section">
+
+        <div class="section-heading">
+
+            <div>
+
+                <h2>Recent Decisions</h2>
+
+                <p>
+                    Latest recommendations generated by E.A.D.A.
+                </p>
+
+            </div>
+
+            <a
+                href="/history"
+                class="history-button"
+            >
+                View Full History
+            </a>
+
+        </div>
+
+
+        <div class="table-wrapper">
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>Task</th>
+
+                        <th>Decision</th>
+
+                        <th>Reward</th>
+
+                        <th>Confidence</th>
+
+                        <th>Risk</th>
+
+                        <th>Date</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody id="recentHistoryBody">
+
+                    <tr id="emptyRecentHistory">
+
+                        <td
+                            colspan="6"
+                            class="empty-state"
+                        >
+                            No decisions have been recorded yet.
+                        </td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         Footer
+         ===================================================== -->
+
+    <footer class="footer">
+
+        <p>
+            E.A.D.A — Explainable Reinforcement Learning for
+            Intelligent Task Prioritization
+        </p>
+
+    </footer>
+
+</div>
+
+
+<!-- Chart.js -->
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+<!-- Main JavaScript -->
+
+<script
+    src="{{ url_for('static', filename='js/main.js') }}"
+    defer
+></script>
+
+</body>
+
+</html>

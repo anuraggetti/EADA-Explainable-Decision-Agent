@@ -1,0 +1,241 @@
+Task,Priority,Deadline,Complexity,Resources,Success,Failure
+Emergency Trauma Surgery,10,1,High,High,80,20
+ICU Equipment Repair,7,12,High,Low,79,21
+Patient Record Audit,8,24,Medium,Medium,56,44
+Blood Bank Restocking,1,72,Low,High,69,31
+Hospital Ward Sanitization,10,2,Medium,Low,86,14
+Medical Camp Planning,8,8,High,Medium,68,32
+Vaccine Inventory Review,6,36,High,High,61,39
+Diagnostic Lab Upgrade,1,120,Low,Medium,90,10
+Ambulance Route Optimization,10,3,High,High,86,14
+Telemedicine System Deployment,6,24,High,Medium,84,16
+Organ Transplant Coordination,8,168,Medium,Medium,59,41
+Routine Health Checkup,1,240,Low,Medium,73,27
+Ransomware Incident Response,8,1,Medium,Medium,86,14
+Critical Security Patch,8,12,Medium,Medium,64,36
+Phishing Campaign Investigation,6,120,High,Medium,89,11
+Firewall Rule Review,2,72,Medium,Medium,85,15
+Penetration Testing,10,8,High,High,82,18
+Access Control Audit,6,12,High,Medium,70,30
+Malware Sample Analysis,6,24,High,High,68,32
+Data Breach Notification,4,120,Medium,Low,84,16
+Password Policy Update,8,2,Medium,High,90,10
+SOC Alert Triage,9,36,Medium,Medium,65,35
+Cloud Misconfiguration Fix,5,96,Medium,Medium,58,42
+Backup Recovery Drill,1,72,Low,High,95,5
+Production Bug Fix,10,1,Medium,Medium,91,9
+Payment Gateway Integration,9,36,Medium,Low,79,21
+Mobile App Release,4,120,Medium,High,62,38
+API Performance Optimization,3,120,Low,Medium,68,32
+Database Schema Migration,10,8,Medium,High,96,4
+User Interface Redesign,7,36,High,Medium,84,16
+Automated Testing Setup,8,96,High,Medium,78,22
+Code Refactoring,2,168,Low,High,88,12
+Feature Requirement Analysis,9,1,High,Medium,97,3
+Legacy System Upgrade,8,12,High,Low,86,14
+Authentication Module Development,8,24,High,High,59,41
+Documentation Update,5,336,Low,Low,98,2
+Final Year Project Submission,10,2,Medium,High,91,9
+Semester Exam Preparation,9,12,High,Medium,70,30
+College Assignment,6,72,Medium,Medium,70,30
+Laboratory Equipment Setup,2,48,Medium,Low,82,18
+Online Course Content Update,10,2,High,Low,94,6
+Student Attendance Review,6,12,High,Low,85,15
+Research Paper Drafting,6,24,High,High,86,14
+Campus Placement Preparation,2,168,Low,High,98,2
+Library Book Audit,8,4,Medium,Low,75,25
+Workshop Organization,6,48,Medium,Medium,71,29
+Scholarship Application Review,7,72,High,Medium,58,42
+Homework Completion,4,240,Medium,Low,83,17
+Fraudulent Transaction Investigation,8,2,Medium,Low,85,15
+Monthly Payroll Processing,7,18,Medium,Low,85,15
+Loan Risk Assessment,4,72,High,Medium,89,11
+Tax Filing Preparation,1,48,Low,Low,94,6
+Budget Allocation Review,9,4,High,Medium,73,27
+Vendor Invoice Verification,7,24,High,Medium,66,34
+Quarterly Financial Audit,7,48,Medium,High,64,36
+Insurance Claim Processing,2,96,Low,Low,71,29
+Investment Portfolio Review,10,3,High,Low,90,10
+Bank Reconciliation,9,36,High,Low,88,12
+Expense Report Approval,8,24,High,Medium,59,41
+Petty Cash Replenishment,2,120,Low,High,83,17
+Client Escalation Resolution,10,6,High,High,74,26
+Product Launch Planning,9,48,Medium,Medium,64,36
+Contract Negotiation,6,36,Medium,High,63,37
+Market Research Study,3,120,Medium,Low,68,32
+Customer Feedback Analysis,9,6,High,Low,89,11
+Sales Forecast Preparation,7,36,Medium,Low,87,13
+Supplier Evaluation,6,24,High,High,73,27
+Employee Onboarding,2,120,Medium,High,68,32
+Business Continuity Planning,10,6,Medium,High,75,25
+Marketing Campaign Design,7,18,High,Low,81,19
+Inventory Reorder Decision,8,36,Medium,High,68,32
+Routine Team Meeting,3,72,Medium,High,99,1
+Flood Rescue Coordination,9,1,High,High,85,15
+Fire Evacuation Response,8,8,High,Medium,82,18
+Earthquake Damage Assessment,5,120,Medium,Medium,83,17
+Missing Person Search,5,240,Medium,High,68,32
+Emergency Shelter Setup,8,1,High,High,73,27
+Public Safety Alert,8,36,High,Medium,62,38
+Road Accident Clearance,4,48,Medium,Medium,77,23
+Disaster Relief Distribution,2,240,Low,High,74,26
+Water Supply Restoration,9,6,Medium,High,95,5
+Election Booth Preparation,7,12,High,Low,86,14
+Public Grievance Review,7,24,High,High,81,19
+Permit Application Processing,2,96,Low,High,74,26
+Factory Machine Breakdown Repair,9,1,Medium,Low,78,22
+Power Grid Fault Isolation,9,18,Medium,Low,65,35
+Bridge Safety Inspection,4,120,High,High,76,24
+Production Line Calibration,3,336,Low,Medium,90,10
+Quality Defect Investigation,10,6,Medium,High,89,11
+Raw Material Procurement,8,8,High,Medium,63,37
+Preventive Maintenance,8,48,High,Medium,82,18
+Construction Site Safety Audit,3,240,Medium,Medium,75,25
+Product Prototype Testing,9,6,High,Medium,73,27
+Warehouse Layout Improvement,9,8,High,Medium,71,29
+Energy Consumption Review,4,120,Medium,High,62,38
+Routine Equipment Cleaning,3,168,Medium,High,94,6
+Urgent Medicine Delivery,9,4,Medium,High,76,24
+Delayed Shipment Recovery,7,24,Medium,Low,77,23
+Fleet Route Planning,8,48,Medium,Medium,74,26
+Airport Baggage Issue,3,72,Medium,High,88,12
+International Travel Booking,9,4,Medium,High,78,22
+Warehouse Stock Transfer,9,48,High,Low,67,33
+Last Mile Delivery Optimization,8,120,Medium,Medium,70,30
+Vehicle Maintenance Scheduling,3,72,Low,Low,69,31
+Customs Document Review,8,2,Medium,High,96,4
+Hotel Reservation,6,24,Medium,Low,80,20
+Office Commute Planning,7,72,Medium,Medium,64,36
+Parcel Pickup,1,336,Low,Medium,82,18
+Pay Electricity Bill,8,8,Medium,Low,89,11
+Grocery Shopping,7,8,Medium,Low,83,17
+Laundry,7,120,Medium,High,87,13
+Home Appliance Repair,4,336,Medium,Low,98,2
+Family Event Planning,9,3,High,High,80,20
+Room Cleaning,9,48,High,Medium,72,28
+Doctor Appointment Booking,4,120,Medium,Medium,72,28
+Personal Budget Review,3,96,Low,Low,77,23
+Fitness Schedule Planning,8,4,High,High,78,22
+Document Renewal,6,24,Medium,Medium,75,25
+Weekend Trip Planning,7,72,High,Medium,81,19
+Book Reading,4,336,Low,High,92,8
+AI Model Training,9,1,Medium,Medium,96,4
+Dataset Quality Review,9,24,High,Medium,65,35
+Experiment Reproduction,6,72,Medium,Medium,79,21
+Research Grant Proposal,3,240,Medium,High,78,22
+Model Bias Assessment,9,2,High,Medium,90,10
+Feature Engineering,6,8,Medium,Low,85,15
+Hyperparameter Tuning,7,36,High,High,79,21
+Literature Survey,3,72,Medium,Medium,89,11
+Prototype Demonstration,9,3,Medium,Medium,74,26
+Data Annotation Planning,9,8,High,Medium,65,35
+Research Presentation,4,168,High,Medium,70,30
+Notebook Cleanup,2,336,Low,High,77,23
+Wildfire Monitoring,8,2,Medium,High,75,25
+Crop Disease Response,7,24,Medium,Medium,63,37
+Irrigation System Repair,8,96,High,Medium,74,26
+Soil Quality Testing,1,168,Low,Medium,92,8
+Waste Collection Planning,9,8,High,Low,90,10
+Air Quality Analysis,7,8,Medium,Low,83,17
+Rainwater Harvesting Setup,8,168,High,High,89,11
+Farm Equipment Maintenance,4,240,Medium,Low,89,11
+Pest Control Scheduling,8,4,Medium,Low,85,15
+Tree Plantation Drive,8,48,Medium,Low,71,29
+Recycling Audit,5,120,Medium,High,84,16
+Garden Watering,4,336,Medium,Medium,83,17
+Server Outage Recovery,8,3,Medium,Low,96,4
+Database Backup Failure,9,36,Medium,Medium,58,42
+Cloud Cost Optimization,7,168,Medium,Medium,86,14
+Network Latency Investigation,2,96,Medium,Medium,85,15
+System Capacity Planning,10,8,Medium,High,72,28
+Software License Audit,7,8,High,Medium,73,27
+Disaster Recovery Test,8,168,High,High,86,14
+User Account Provisioning,4,336,Low,Low,86,14
+Log Retention Review,8,4,High,Medium,93,7
+Routine Server Maintenance,8,24,Medium,Medium,81,19
+Printer Configuration,8,48,Medium,High,72,28
+File Archive Cleanup,3,96,Low,Low,80,20
+Regulatory Breach Response,9,1,High,Low,78,22
+Court Filing Deadline,9,18,Medium,Low,84,16
+Contract Compliance Audit,5,48,High,High,66,34
+Privacy Impact Assessment,3,48,Low,Medium,70,30
+Policy Exception Review,8,6,Medium,High,76,24
+Evidence Documentation,9,8,High,Medium,73,27
+License Renewal,7,72,Medium,Medium,58,42
+Legal Research,3,336,Medium,Low,72,28
+Employee Policy Update,9,4,High,High,92,8
+Meeting Minutes Approval,6,12,High,Medium,60,40
+Routine Document Filing,5,24,Medium,Medium,88,12
+Archive Record Review,4,120,Medium,Medium,95,5
+Satellite Communication Failure,9,6,High,High,95,5
+Mission Control Incident,6,12,High,Medium,79,21
+Radar System Calibration,4,36,High,Medium,90,10
+Secure Communication Upgrade,1,72,Low,Medium,96,4
+Flight Test Preparation,10,6,Medium,Medium,73,27
+Equipment Readiness Review,7,18,Medium,Medium,60,40
+Simulation Exercise,5,48,High,High,62,38
+Technical Intelligence Analysis,5,72,Low,Medium,77,23
+Supply Chain Assessment,8,1,High,Medium,91,9
+Routine Inspection,8,24,High,Medium,80,20
+Training Schedule Update,6,120,Medium,High,87,13
+Inventory Documentation,5,120,Medium,Low,70,30
+Live Broadcast Failure,9,8,Medium,High,80,20
+Event Safety Incident,6,8,High,Low,82,18
+Conference Launch,6,96,High,Medium,85,15
+Video Production Planning,5,240,Medium,Medium,79,21
+Press Release Review,10,4,Medium,Low,87,13
+Speaker Coordination,8,24,Medium,Medium,79,21
+Social Media Campaign,4,168,High,High,81,19
+Venue Booking,4,96,Medium,High,70,30
+Poster Design,9,1,Medium,Medium,82,18
+Photo Archive Organization,6,24,High,Medium,71,29
+Playlist Preparation,4,36,Medium,High,83,17
+Invitation List Update,1,72,Medium,High,76,24
+Payment Failure Investigation,9,4,Medium,Low,72,28
+High Demand Stock Replenishment,7,48,High,Medium,75,25
+Order Fulfillment Delay,4,96,Medium,Medium,69,31
+Product Catalog Migration,1,120,Low,High,77,23
+Customer Refund Review,9,8,Medium,High,94,6
+Promotional Pricing Setup,8,24,Medium,Medium,65,35
+Seller Verification,7,96,High,High,67,33
+Website Banner Update,5,168,Low,Low,85,15
+Product Photography,9,3,Medium,Low,81,19
+Store Cleaning,8,36,Medium,Low,72,28
+Shelf Label Update,8,72,Medium,High,90,10
+Routine Price Check,5,120,Medium,Medium,80,20
+Workplace Safety Complaint,10,2,Medium,Low,96,4
+Critical Role Recruitment,9,8,Medium,Medium,80,20
+Payroll Dispute Resolution,7,72,High,High,57,43
+Performance Review Cycle,2,168,Medium,Low,96,4
+Training Program Design,8,6,Medium,Low,95,5
+Employee Survey Analysis,7,24,High,Low,73,27
+Leave Request Review,6,48,Medium,Medium,76,24
+Interview Scheduling,5,120,Medium,High,99,1
+Policy Acknowledgement Collection,10,1,High,Low,92,8
+Birthday Event Planning,8,12,High,Medium,61,39
+Personnel File Update,4,72,High,High,56,44
+Routine Attendance Report,1,96,Low,Medium,90,10
+Rail Signal Failure,9,4,High,Low,88,12
+Aircraft Technical Inspection,9,36,High,Low,63,37
+Bus Route Disruption,4,96,Medium,Medium,86,14
+Traffic Congestion Response,5,72,Low,Medium,84,16
+Vehicle Recall Coordination,9,3,High,Medium,81,19
+Fuel Supply Planning,7,8,Medium,Medium,76,24
+Driver Roster Preparation,6,120,Medium,High,84,16
+Parking Allocation Review,3,72,Medium,Medium,74,26
+Route Map Update,8,4,Medium,High,81,19
+Routine Vehicle Wash,8,8,Medium,Medium,58,42
+Ticket Counter Audit,8,168,High,High,73,27
+Passenger Feedback Review,2,168,Medium,Low,80,20
+Emergency Food Distribution,10,3,High,High,75,25
+Shelter Capacity Crisis,6,18,Medium,Low,76,24
+Community Health Awareness,6,120,High,Medium,73,27
+Volunteer Coordination,3,240,Medium,Low,80,20
+Donation Inventory Review,8,6,Medium,High,88,12
+Public Workshop Planning,8,12,Medium,Medium,88,12
+Neighborhood Safety Survey,6,120,Medium,Medium,84,16
+Fundraising Campaign,1,72,Low,High,93,7
+Community Hall Booking,10,3,High,Medium,72,28
+Newsletter Preparation,8,36,High,Medium,69,31
+Member Database Cleanup,6,96,Medium,High,61,39
+Routine Notice Update,2,120,Low,High,88,12

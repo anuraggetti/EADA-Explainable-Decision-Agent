@@ -1,0 +1,2133 @@
+{
+    "version": 2,
+    "states": [
+        {
+            "state": [
+                3,
+                4,
+                2,
+                1,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 44.7182,
+                "Allocate Resources": 56.5831,
+                "Split Task": 49.1598,
+                "Delay Task": 14.8329
+            }
+        },
+        {
+            "state": [
+                0,
+                4,
+                2,
+                1,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 0.0,
+                "Allocate Resources": 0.0,
+                "Split Task": 0.0,
+                "Delay Task": 0.0
+            }
+        },
+        {
+            "state": [
+                3,
+                1,
+                2,
+                1,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 69.2773,
+                "Allocate Resources": 71.5874,
+                "Split Task": 60.2415,
+                "Delay Task": 9.7149
+            }
+        },
+        {
+            "state": [
+                2,
+                1,
+                1,
+                0,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 19.4119,
+                "Allocate Resources": 71.5495,
+                "Split Task": 59.5496,
+                "Delay Task": 11.5314
+            }
+        },
+        {
+            "state": [
+                0,
+                3,
+                1,
+                2,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": 11.1154,
+                "Allocate Resources": 18.9844,
+                "Split Task": 31.2213,
+                "Delay Task": 58.1859
+            }
+        },
+        {
+            "state": [
+                1,
+                4,
+                1,
+                1,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": -0.0641,
+                "Allocate Resources": 22.8982,
+                "Split Task": 29.5815,
+                "Delay Task": 40.1529
+            }
+        },
+        {
+            "state": [
+                3,
+                1,
+                1,
+                0,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": 84.3691,
+                "Allocate Resources": 81.3791,
+                "Split Task": 67.1376,
+                "Delay Task": 4.0403
+            }
+        },
+        {
+            "state": [
+                0,
+                4,
+                1,
+                0,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": -5.3176,
+                "Allocate Resources": 34.487,
+                "Split Task": 34.9311,
+                "Delay Task": 51.7323
+            }
+        },
+        {
+            "state": [
+                3,
+                0,
+                2,
+                0,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 76.7995,
+                "Allocate Resources": 99.7995,
+                "Split Task": 73.4347,
+                "Delay Task": -0.1906
+            }
+        },
+        {
+            "state": [
+                3,
+                0,
+                2,
+                1,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 95.5105,
+                "Allocate Resources": 80.6761,
+                "Split Task": 69.8077,
+                "Delay Task": 0.5612
+            }
+        },
+        {
+            "state": [
+                3,
+                1,
+                2,
+                1,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": 92.5495,
+                "Allocate Resources": 71.7162,
+                "Split Task": 67.8623,
+                "Delay Task": -2.182
+            }
+        },
+        {
+            "state": [
+                1,
+                4,
+                1,
+                1,
+                1,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": -4.2605,
+                "Allocate Resources": 14.8332,
+                "Split Task": 25.1495,
+                "Delay Task": 35.1496
+            }
+        },
+        {
+            "state": [
+                3,
+                0,
+                2,
+                2,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 99.9995,
+                "Allocate Resources": 77.3762,
+                "Split Task": 71.1108,
+                "Delay Task": -0.0027
+            }
+        },
+        {
+            "state": [
+                3,
+                3,
+                1,
+                2,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": 59.4995,
+                "Allocate Resources": 41.4995,
+                "Split Task": 39.754,
+                "Delay Task": 17.3664
+            }
+        },
+        {
+            "state": [
+                0,
+                4,
+                0,
+                2,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 2.251,
+                "Allocate Resources": 9.159,
+                "Split Task": 4.3905,
+                "Delay Task": 49.5045
+            }
+        },
+        {
+            "state": [
+                3,
+                2,
+                1,
+                0,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 45.1848,
+                "Allocate Resources": 71.8996,
+                "Split Task": 52.0267,
+                "Delay Task": 11.6022
+            }
+        },
+        {
+            "state": [
+                2,
+                4,
+                1,
+                1,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 5.1457,
+                "Allocate Resources": 39.3996,
+                "Split Task": 33.7327,
+                "Delay Task": 11.0433
+            }
+        },
+        {
+            "state": [
+                1,
+                4,
+                1,
+                0,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": 3.7723,
+                "Allocate Resources": 43.2748,
+                "Split Task": 43.4129,
+                "Delay Task": 43.9113
+            }
+        },
+        {
+            "state": [
+                2,
+                1,
+                1,
+                1,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 15.9953,
+                "Allocate Resources": 51.0996,
+                "Split Task": 43.343,
+                "Delay Task": 8.7143
+            }
+        },
+        {
+            "state": [
+                3,
+                0,
+                2,
+                2,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": 99.9995,
+                "Allocate Resources": 80.2843,
+                "Split Task": 72.6987,
+                "Delay Task": 3.3332
+            }
+        },
+        {
+            "state": [
+                3,
+                3,
+                2,
+                0,
+                1,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 23.3946,
+                "Allocate Resources": 73.9496,
+                "Split Task": 42.8422,
+                "Delay Task": 13.2928
+            }
+        },
+        {
+            "state": [
+                1,
+                4,
+                1,
+                0,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": -0.6653,
+                "Allocate Resources": 39.1755,
+                "Split Task": 39.1631,
+                "Delay Task": 39.4667
+            }
+        },
+        {
+            "state": [
+                3,
+                1,
+                2,
+                1,
+                1,
+                2
+            ],
+            "actions": {
+                "Execute Immediately": 51.6292,
+                "Allocate Resources": 63.7359,
+                "Split Task": 56.6076,
+                "Delay Task": 6.6279
+            }
+        },
+        {
+            "state": [
+                2,
+                3,
+                1,
+                1,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 2.2506,
+                "Allocate Resources": 35.9842,
+                "Split Task": 32.1563,
+                "Delay Task": 8.9244
+            }
+        },
+        {
+            "state": [
+                3,
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 53.9935,
+                "Allocate Resources": 66.5173,
+                "Split Task": 55.5455,
+                "Delay Task": 9.5547
+            }
+        },
+        {
+            "state": [
+                1,
+                4,
+                1,
+                1,
+                1,
+                2
+            ],
+            "actions": {
+                "Execute Immediately": -5.7054,
+                "Allocate Resources": 15.7995,
+                "Split Task": 21.1959,
+                "Delay Task": 33.7996
+            }
+        },
+        {
+            "state": [
+                1,
+                4,
+                0,
+                0,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": 5.561,
+                "Allocate Resources": 44.1548,
+                "Split Task": 26.1965,
+                "Delay Task": 43.5463
+            }
+        },
+        {
+            "state": [
+                2,
+                2,
+                1,
+                0,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 10.7469,
+                "Allocate Resources": 63.026,
+                "Split Task": 51.675,
+                "Delay Task": 3.0135
+            }
+        },
+        {
+            "state": [
+                3,
+                0,
+                1,
+                1,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": 98.2984,
+                "Allocate Resources": 72.3735,
+                "Split Task": 64.1066,
+                "Delay Task": 4.3932
+            }
+        },
+        {
+            "state": [
+                1,
+                2,
+                1,
+                1,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": 10.3986,
+                "Allocate Resources": 33.2996,
+                "Split Task": 41.2996,
+                "Delay Task": 33.4045
+            }
+        },
+        {
+            "state": [
+                0,
+                4,
+                0,
+                0,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": -6.912,
+                "Allocate Resources": 34.567,
+                "Split Task": 15.6841,
+                "Delay Task": 51.2665
+            }
+        },
+        {
+            "state": [
+                3,
+                1,
+                1,
+                0,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 86.9884,
+                "Allocate Resources": 76.6198,
+                "Split Task": 62.3083,
+                "Delay Task": -8.0494
+            }
+        },
+        {
+            "state": [
+                2,
+                1,
+                2,
+                1,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 14.3198,
+                "Allocate Resources": 63.6407,
+                "Split Task": 56.7707,
+                "Delay Task": 7.3112
+            }
+        },
+        {
+            "state": [
+                2,
+                1,
+                1,
+                0,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": 17.2563,
+                "Allocate Resources": 69.7495,
+                "Split Task": 54.3918,
+                "Delay Task": 9.183
+            }
+        },
+        {
+            "state": [
+                3,
+                0,
+                1,
+                0,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": 98.3862,
+                "Allocate Resources": 89.577,
+                "Split Task": 75.2873,
+                "Delay Task": 3.8307
+            }
+        },
+        {
+            "state": [
+                2,
+                3,
+                2,
+                1,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 6.6401,
+                "Allocate Resources": 55.5145,
+                "Split Task": 48.2706,
+                "Delay Task": 13.4653
+            }
+        },
+        {
+            "state": [
+                3,
+                3,
+                1,
+                1,
+                1,
+                2
+            ],
+            "actions": {
+                "Execute Immediately": 42.0522,
+                "Allocate Resources": 38.2367,
+                "Split Task": 30.156,
+                "Delay Task": 11.5965
+            }
+        },
+        {
+            "state": [
+                1,
+                3,
+                2,
+                1,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": 2.2425,
+                "Allocate Resources": 39.2588,
+                "Split Task": 44.3515,
+                "Delay Task": 41.8005
+            }
+        },
+        {
+            "state": [
+                3,
+                1,
+                2,
+                0,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": 64.252,
+                "Allocate Resources": 95.6411,
+                "Split Task": 76.247,
+                "Delay Task": 7.1715
+            }
+        },
+        {
+            "state": [
+                3,
+                3,
+                1,
+                2,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 53.1996,
+                "Allocate Resources": 33.3578,
+                "Split Task": 34.6655,
+                "Delay Task": 10.754
+            }
+        },
+        {
+            "state": [
+                1,
+                3,
+                0,
+                1,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 1.1451,
+                "Allocate Resources": 23.6546,
+                "Split Task": 13.8132,
+                "Delay Task": 41.6972
+            }
+        },
+        {
+            "state": [
+                2,
+                2,
+                2,
+                2,
+                1,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 15.5939,
+                "Allocate Resources": 43.9376,
+                "Split Task": 48.7996,
+                "Delay Task": -1.1371
+            }
+        },
+        {
+            "state": [
+                2,
+                3,
+                1,
+                1,
+                1,
+                2
+            ],
+            "actions": {
+                "Execute Immediately": -0.5841,
+                "Allocate Resources": 33.8302,
+                "Split Task": 28.9913,
+                "Delay Task": 6.9711
+            }
+        },
+        {
+            "state": [
+                0,
+                3,
+                1,
+                1,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": -2.0022,
+                "Allocate Resources": 19.9096,
+                "Split Task": 27.7947,
+                "Delay Task": 54.8
+            }
+        },
+        {
+            "state": [
+                3,
+                0,
+                1,
+                2,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": 99.9995,
+                "Allocate Resources": 66.1686,
+                "Split Task": 65.4003,
+                "Delay Task": 3.6439
+            }
+        },
+        {
+            "state": [
+                0,
+                4,
+                0,
+                1,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": -3.5366,
+                "Allocate Resources": 18.0088,
+                "Split Task": 8.0609,
+                "Delay Task": 53.3844
+            }
+        },
+        {
+            "state": [
+                2,
+                4,
+                1,
+                2,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": 17.5588,
+                "Allocate Resources": 35.9879,
+                "Split Task": 37.6515,
+                "Delay Task": 14.5111
+            }
+        },
+        {
+            "state": [
+                0,
+                4,
+                0,
+                2,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": 8.8218,
+                "Allocate Resources": 15.271,
+                "Split Task": 9.3441,
+                "Delay Task": 54.9405
+            }
+        },
+        {
+            "state": [
+                0,
+                4,
+                1,
+                0,
+                1,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": -7.3736,
+                "Allocate Resources": 28.7657,
+                "Split Task": 29.9811,
+                "Delay Task": 49.2996
+            }
+        },
+        {
+            "state": [
+                3,
+                2,
+                1,
+                1,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 52.9891,
+                "Allocate Resources": 49.9762,
+                "Split Task": 46.101,
+                "Delay Task": 8.0015
+            }
+        },
+        {
+            "state": [
+                3,
+                1,
+                1,
+                1,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": 54.1474,
+                "Allocate Resources": 57.7996,
+                "Split Task": 50.6714,
+                "Delay Task": 14.6656
+            }
+        },
+        {
+            "state": [
+                3,
+                1,
+                1,
+                2,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 90.3475,
+                "Allocate Resources": 55.6396,
+                "Split Task": 52.2884,
+                "Delay Task": -0.9815
+            }
+        },
+        {
+            "state": [
+                1,
+                3,
+                2,
+                2,
+                1,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 6.1261,
+                "Allocate Resources": 26.752,
+                "Split Task": 38.5996,
+                "Delay Task": 33.9725
+            }
+        },
+        {
+            "state": [
+                3,
+                1,
+                2,
+                2,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 90.7858,
+                "Allocate Resources": 71.0522,
+                "Split Task": 65.6987,
+                "Delay Task": -1.7129
+            }
+        },
+        {
+            "state": [
+                3,
+                1,
+                2,
+                2,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": 99.9995,
+                "Allocate Resources": 77.187,
+                "Split Task": 70.2298,
+                "Delay Task": 0.182
+            }
+        },
+        {
+            "state": [
+                1,
+                4,
+                1,
+                2,
+                1,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 6.653,
+                "Allocate Resources": 13.8581,
+                "Split Task": 27.2995,
+                "Delay Task": 37.2996
+            }
+        },
+        {
+            "state": [
+                3,
+                3,
+                2,
+                1,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 45.5056,
+                "Allocate Resources": 58.197,
+                "Split Task": 48.4586,
+                "Delay Task": 16.3133
+            }
+        },
+        {
+            "state": [
+                2,
+                4,
+                2,
+                1,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 1.4598,
+                "Allocate Resources": 50.5496,
+                "Split Task": 43.5496,
+                "Delay Task": 7.3949
+            }
+        },
+        {
+            "state": [
+                3,
+                3,
+                1,
+                0,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 45.9803,
+                "Allocate Resources": 59.6822,
+                "Split Task": 46.0473,
+                "Delay Task": 14.9007
+            }
+        },
+        {
+            "state": [
+                1,
+                4,
+                1,
+                1,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": 2.5591,
+                "Allocate Resources": 24.2691,
+                "Split Task": 33.6914,
+                "Delay Task": 42.7624
+            }
+        },
+        {
+            "state": [
+                0,
+                4,
+                0,
+                1,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": -9.599,
+                "Allocate Resources": 12.374,
+                "Split Task": 2.6252,
+                "Delay Task": 47.7103
+            }
+        },
+        {
+            "state": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 21.7033,
+                "Allocate Resources": 55.1879,
+                "Split Task": 53.4614,
+                "Delay Task": 4.0747
+            }
+        },
+        {
+            "state": [
+                1,
+                4,
+                1,
+                2,
+                1,
+                2
+            ],
+            "actions": {
+                "Execute Immediately": 2.6788,
+                "Allocate Resources": 9.5839,
+                "Split Task": 22.6996,
+                "Delay Task": 32.6996
+            }
+        },
+        {
+            "state": [
+                3,
+                0,
+                2,
+                1,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": 98.5989,
+                "Allocate Resources": 86.6335,
+                "Split Task": 75.692,
+                "Delay Task": 3.8395
+            }
+        },
+        {
+            "state": [
+                3,
+                0,
+                2,
+                0,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": 84.0171,
+                "Allocate Resources": 99.9995,
+                "Split Task": 87.1462,
+                "Delay Task": 7.0373
+            }
+        },
+        {
+            "state": [
+                3,
+                1,
+                1,
+                1,
+                1,
+                2
+            ],
+            "actions": {
+                "Execute Immediately": 51.3217,
+                "Allocate Resources": 48.5343,
+                "Split Task": 44.6156,
+                "Delay Task": 6.4193
+            }
+        },
+        {
+            "state": [
+                0,
+                3,
+                0,
+                2,
+                1,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": -2.2133,
+                "Allocate Resources": 4.3495,
+                "Split Task": -0.3335,
+                "Delay Task": 44.6496
+            }
+        },
+        {
+            "state": [
+                3,
+                4,
+                2,
+                2,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 47.0397,
+                "Allocate Resources": 50.5496,
+                "Split Task": 44.247,
+                "Delay Task": 13.1312
+            }
+        },
+        {
+            "state": [
+                1,
+                3,
+                2,
+                2,
+                1,
+                2
+            ],
+            "actions": {
+                "Execute Immediately": 3.0462,
+                "Allocate Resources": 24.761,
+                "Split Task": 34.9691,
+                "Delay Task": 32.4765
+            }
+        },
+        {
+            "state": [
+                1,
+                4,
+                2,
+                1,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": -4.141,
+                "Allocate Resources": 28.1097,
+                "Split Task": 37.4995,
+                "Delay Task": 31.184
+            }
+        },
+        {
+            "state": [
+                2,
+                3,
+                1,
+                2,
+                1,
+                2
+            ],
+            "actions": {
+                "Execute Immediately": 8.7448,
+                "Allocate Resources": 28.6261,
+                "Split Task": 29.4494,
+                "Delay Task": 5.8972
+            }
+        },
+        {
+            "state": [
+                0,
+                3,
+                1,
+                2,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 0.0929,
+                "Allocate Resources": 6.7285,
+                "Split Task": 19.5409,
+                "Delay Task": 47.0996
+            }
+        },
+        {
+            "state": [
+                3,
+                1,
+                1,
+                2,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": 91.0212,
+                "Allocate Resources": 60.3179,
+                "Split Task": 57.9667,
+                "Delay Task": 11.504
+            }
+        },
+        {
+            "state": [
+                0,
+                3,
+                0,
+                0,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": -3.3415,
+                "Allocate Resources": 36.3996,
+                "Split Task": 17.8883,
+                "Delay Task": 53.3996
+            }
+        },
+        {
+            "state": [
+                0,
+                3,
+                0,
+                1,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": -2.6686,
+                "Allocate Resources": 19.0996,
+                "Split Task": 8.6714,
+                "Delay Task": 54.0996
+            }
+        },
+        {
+            "state": [
+                2,
+                1,
+                2,
+                0,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": -0.7105,
+                "Allocate Resources": 84.4097,
+                "Split Task": 69.0415,
+                "Delay Task": 9.1613
+            }
+        },
+        {
+            "state": [
+                1,
+                4,
+                2,
+                2,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 8.5978,
+                "Allocate Resources": 30.8989,
+                "Split Task": 40.4419,
+                "Delay Task": 38.2423
+            }
+        },
+        {
+            "state": [
+                2,
+                3,
+                2,
+                2,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 14.5596,
+                "Allocate Resources": 50.1496,
+                "Split Task": 46.313,
+                "Delay Task": 12.6985
+            }
+        },
+        {
+            "state": [
+                0,
+                4,
+                1,
+                2,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 5.0164,
+                "Allocate Resources": 12.7969,
+                "Split Task": 25.3292,
+                "Delay Task": 52.7996
+            }
+        },
+        {
+            "state": [
+                2,
+                1,
+                2,
+                0,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": 1.4353,
+                "Allocate Resources": 86.2093,
+                "Split Task": 70.7578,
+                "Delay Task": 10.7646
+            }
+        },
+        {
+            "state": [
+                2,
+                4,
+                2,
+                1,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": 6.637,
+                "Allocate Resources": 55.4544,
+                "Split Task": 48.4918,
+                "Delay Task": 13.3789
+            }
+        },
+        {
+            "state": [
+                0,
+                4,
+                0,
+                1,
+                1,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": -7.1471,
+                "Allocate Resources": 13.0327,
+                "Split Task": 3.5031,
+                "Delay Task": 49.2996
+            }
+        },
+        {
+            "state": [
+                3,
+                3,
+                2,
+                0,
+                1,
+                2
+            ],
+            "actions": {
+                "Execute Immediately": 21.8637,
+                "Allocate Resources": 72.5495,
+                "Split Task": 44.6626,
+                "Delay Task": 11.4377
+            }
+        },
+        {
+            "state": [
+                0,
+                3,
+                0,
+                1,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": -6.3795,
+                "Allocate Resources": 14.9995,
+                "Split Task": 4.6769,
+                "Delay Task": 49.9995
+            }
+        },
+        {
+            "state": [
+                2,
+                3,
+                2,
+                1,
+                1,
+                2
+            ],
+            "actions": {
+                "Execute Immediately": -1.1137,
+                "Allocate Resources": 47.7996,
+                "Split Task": 32.3997,
+                "Delay Task": 5.2859
+            }
+        },
+        {
+            "state": [
+                3,
+                0,
+                1,
+                1,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 94.8708,
+                "Allocate Resources": 66.1694,
+                "Split Task": 57.3771,
+                "Delay Task": -0.2481
+            }
+        },
+        {
+            "state": [
+                0,
+                3,
+                0,
+                2,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": 6.3586,
+                "Allocate Resources": 13.366,
+                "Split Task": 8.3961,
+                "Delay Task": 53.4152
+            }
+        },
+        {
+            "state": [
+                3,
+                4,
+                2,
+                2,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": 58.6041,
+                "Allocate Resources": 55.5838,
+                "Split Task": 53.1298,
+                "Delay Task": 18.5673
+            }
+        },
+        {
+            "state": [
+                2,
+                2,
+                2,
+                0,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": -5.0867,
+                "Allocate Resources": 79.4456,
+                "Split Task": 64.6542,
+                "Delay Task": 4.0962
+            }
+        },
+        {
+            "state": [
+                2,
+                3,
+                2,
+                2,
+                1,
+                2
+            ],
+            "actions": {
+                "Execute Immediately": 7.783,
+                "Allocate Resources": 41.9029,
+                "Split Task": 39.5071,
+                "Delay Task": 4.5663
+            }
+        },
+        {
+            "state": [
+                3,
+                2,
+                1,
+                1,
+                1,
+                2
+            ],
+            "actions": {
+                "Execute Immediately": 44.5996,
+                "Allocate Resources": 41.5996,
+                "Split Task": 33.8972,
+                "Delay Task": -0.3889
+            }
+        },
+        {
+            "state": [
+                2,
+                4,
+                1,
+                1,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": 7.7531,
+                "Allocate Resources": 42.5996,
+                "Split Task": 33.3857,
+                "Delay Task": 15.0047
+            }
+        },
+        {
+            "state": [
+                0,
+                3,
+                1,
+                1,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": -5.1533,
+                "Allocate Resources": 15.0919,
+                "Split Task": 21.9971,
+                "Delay Task": 51.3996
+            }
+        },
+        {
+            "state": [
+                1,
+                4,
+                1,
+                2,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 9.8501,
+                "Allocate Resources": 16.3058,
+                "Split Task": 28.0147,
+                "Delay Task": 39.1046
+            }
+        },
+        {
+            "state": [
+                3,
+                4,
+                1,
+                1,
+                1,
+                2
+            ],
+            "actions": {
+                "Execute Immediately": 34.421,
+                "Allocate Resources": 35.6496,
+                "Split Task": 28.1869,
+                "Delay Task": 8.2833
+            }
+        },
+        {
+            "state": [
+                2,
+                2,
+                2,
+                1,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 10.3045,
+                "Allocate Resources": 59.203,
+                "Split Task": 52.1292,
+                "Delay Task": 1.8909
+            }
+        },
+        {
+            "state": [
+                2,
+                2,
+                1,
+                1,
+                1,
+                2
+            ],
+            "actions": {
+                "Execute Immediately": 7.0162,
+                "Allocate Resources": 40.9981,
+                "Split Task": 37.0,
+                "Delay Task": -0.9111
+            }
+        },
+        {
+            "state": [
+                3,
+                3,
+                1,
+                1,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 40.3983,
+                "Allocate Resources": 40.8996,
+                "Split Task": 33.6296,
+                "Delay Task": 11.8138
+            }
+        },
+        {
+            "state": [
+                0,
+                4,
+                1,
+                2,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": 10.8033,
+                "Allocate Resources": 17.3301,
+                "Split Task": 28.3078,
+                "Delay Task": 58.3996
+            }
+        },
+        {
+            "state": [
+                2,
+                2,
+                1,
+                0,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": 14.3632,
+                "Allocate Resources": 67.2495,
+                "Split Task": 48.5328,
+                "Delay Task": 6.8706
+            }
+        },
+        {
+            "state": [
+                3,
+                2,
+                1,
+                0,
+                1,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 45.7963,
+                "Allocate Resources": 65.2495,
+                "Split Task": 44.7861,
+                "Delay Task": 5.0027
+            }
+        },
+        {
+            "state": [
+                3,
+                3,
+                2,
+                1,
+                1,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 36.4562,
+                "Allocate Resources": 54.1496,
+                "Split Task": 44.4081,
+                "Delay Task": 11.0732
+            }
+        },
+        {
+            "state": [
+                1,
+                3,
+                1,
+                1,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": -1.9986,
+                "Allocate Resources": 19.9496,
+                "Split Task": 24.552,
+                "Delay Task": 37.9496
+            }
+        },
+        {
+            "state": [
+                3,
+                1,
+                1,
+                1,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 75.3054,
+                "Allocate Resources": 59.4182,
+                "Split Task": 51.038,
+                "Delay Task": 2.719
+            }
+        },
+        {
+            "state": [
+                2,
+                4,
+                1,
+                2,
+                1,
+                2
+            ],
+            "actions": {
+                "Execute Immediately": 6.6261,
+                "Allocate Resources": 26.3496,
+                "Split Task": 25.5829,
+                "Delay Task": 4.2155
+            }
+        },
+        {
+            "state": [
+                3,
+                0,
+                1,
+                0,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 95.3172,
+                "Allocate Resources": 85.1443,
+                "Split Task": 68.1673,
+                "Delay Task": 0.4643
+            }
+        },
+        {
+            "state": [
+                3,
+                2,
+                2,
+                1,
+                1,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 48.8524,
+                "Allocate Resources": 62.2495,
+                "Split Task": 46.2417,
+                "Delay Task": 4.733
+            }
+        },
+        {
+            "state": [
+                2,
+                4,
+                2,
+                2,
+                1,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 11.5397,
+                "Allocate Resources": 41.8775,
+                "Split Task": 43.9496,
+                "Delay Task": 8.9496
+            }
+        },
+        {
+            "state": [
+                0,
+                4,
+                1,
+                1,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": -4.8312,
+                "Allocate Resources": 16.7495,
+                "Split Task": 23.3108,
+                "Delay Task": 51.7495
+            }
+        },
+        {
+            "state": [
+                1,
+                4,
+                0,
+                2,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": 12.5783,
+                "Allocate Resources": 20.1996,
+                "Split Task": 14.62,
+                "Delay Task": 43.1996
+            }
+        },
+        {
+            "state": [
+                3,
+                4,
+                1,
+                1,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 39.4489,
+                "Allocate Resources": 39.4995,
+                "Split Task": 33.2063,
+                "Delay Task": 12.0233
+            }
+        },
+        {
+            "state": [
+                3,
+                3,
+                2,
+                0,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": 31.1484,
+                "Allocate Resources": 81.2995,
+                "Split Task": 57.7356,
+                "Delay Task": 20.3971
+            }
+        },
+        {
+            "state": [
+                2,
+                3,
+                1,
+                0,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": 8.1567,
+                "Allocate Resources": 60.9496,
+                "Split Task": 46.1036,
+                "Delay Task": 15.4572
+            }
+        },
+        {
+            "state": [
+                1,
+                3,
+                1,
+                2,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 8.3739,
+                "Allocate Resources": 17.0495,
+                "Split Task": 26.7618,
+                "Delay Task": 40.0496
+            }
+        },
+        {
+            "state": [
+                2,
+                2,
+                2,
+                2,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": 20.5724,
+                "Allocate Resources": 54.6795,
+                "Split Task": 55.0996,
+                "Delay Task": 4.8331
+            }
+        },
+        {
+            "state": [
+                3,
+                0,
+                1,
+                2,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 99.9995,
+                "Allocate Resources": 53.0873,
+                "Split Task": 53.9987,
+                "Delay Task": -3.4508
+            }
+        },
+        {
+            "state": [
+                0,
+                4,
+                1,
+                0,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": -0.3848,
+                "Allocate Resources": 39.5996,
+                "Split Task": 33.6563,
+                "Delay Task": 56.5996
+            }
+        },
+        {
+            "state": [
+                2,
+                2,
+                2,
+                1,
+                1,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 8.3342,
+                "Allocate Resources": 57.5996,
+                "Split Task": 47.3308,
+                "Delay Task": 0.5794
+            }
+        },
+        {
+            "state": [
+                3,
+                2,
+                2,
+                2,
+                1,
+                2
+            ],
+            "actions": {
+                "Execute Immediately": 55.6496,
+                "Allocate Resources": 52.6496,
+                "Split Task": 48.7176,
+                "Delay Task": 0.6035
+            }
+        },
+        {
+            "state": [
+                2,
+                4,
+                1,
+                2,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 14.2944,
+                "Allocate Resources": 34.3996,
+                "Split Task": 31.9139,
+                "Delay Task": 11.679
+            }
+        },
+        {
+            "state": [
+                0,
+                4,
+                1,
+                1,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": -3.8734,
+                "Allocate Resources": 17.7495,
+                "Split Task": 23.9014,
+                "Delay Task": 52.7495
+            }
+        },
+        {
+            "state": [
+                3,
+                2,
+                2,
+                1,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 49.918,
+                "Allocate Resources": 64.9995,
+                "Split Task": 55.5413,
+                "Delay Task": 7.1247
+            }
+        },
+        {
+            "state": [
+                3,
+                2,
+                1,
+                1,
+                1,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 41.9446,
+                "Allocate Resources": 44.7495,
+                "Split Task": 34.6337,
+                "Delay Task": 2.5526
+            }
+        },
+        {
+            "state": [
+                3,
+                3,
+                2,
+                1,
+                1,
+                2
+            ],
+            "actions": {
+                "Execute Immediately": 36.5333,
+                "Allocate Resources": 51.6996,
+                "Split Task": 42.9946,
+                "Delay Task": 9.571
+            }
+        },
+        {
+            "state": [
+                2,
+                1,
+                2,
+                1,
+                1,
+                2
+            ],
+            "actions": {
+                "Execute Immediately": 8.4767,
+                "Allocate Resources": 57.9995,
+                "Split Task": 50.9995,
+                "Delay Task": 0.9015
+            }
+        },
+        {
+            "state": [
+                0,
+                3,
+                1,
+                0,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": -4.8773,
+                "Allocate Resources": 34.6996,
+                "Split Task": 30.4812,
+                "Delay Task": 51.6996
+            }
+        },
+        {
+            "state": [
+                3,
+                2,
+                2,
+                1,
+                1,
+                2
+            ],
+            "actions": {
+                "Execute Immediately": 44.5074,
+                "Allocate Resources": 57.6496,
+                "Split Task": 47.0138,
+                "Delay Task": 0.5925
+            }
+        },
+        {
+            "state": [
+                3,
+                3,
+                1,
+                2,
+                1,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 51.7996,
+                "Allocate Resources": 33.7996,
+                "Split Task": 31.7157,
+                "Delay Task": 11.1825
+            }
+        },
+        {
+            "state": [
+                3,
+                3,
+                1,
+                1,
+                1,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 37.4075,
+                "Allocate Resources": 40.2495,
+                "Split Task": 29.0065,
+                "Delay Task": 12.0756
+            }
+        },
+        {
+            "state": [
+                1,
+                4,
+                1,
+                2,
+                3,
+                0
+            ],
+            "actions": {
+                "Execute Immediately": 17.4575,
+                "Allocate Resources": 25.1495,
+                "Split Task": 33.5118,
+                "Delay Task": 48.1496
+            }
+        },
+        {
+            "state": [
+                0,
+                3,
+                0,
+                0,
+                1,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": -7.0976,
+                "Allocate Resources": 31.4044,
+                "Split Task": 13.7035,
+                "Delay Task": 49.6496
+            }
+        },
+        {
+            "state": [
+                0,
+                4,
+                1,
+                2,
+                1,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": -0.1841,
+                "Allocate Resources": 6.5117,
+                "Split Task": 17.3929,
+                "Delay Task": 46.7996
+            }
+        },
+        {
+            "state": [
+                2,
+                2,
+                1,
+                1,
+                2,
+                1
+            ],
+            "actions": {
+                "Execute Immediately": 8.7122,
+                "Allocate Resources": 43.2495,
+                "Split Task": 39.2495,
+                "Delay Task": 1.0981
+            }
+        }
+    ]
+}
